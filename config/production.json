@@ -1,0 +1,60 @@
+{
+    "Description": "All Apps Configurations in Production Mode",
+
+    "Instagram": {
+        "App2": {
+            "client_id": "<clientid>",
+            "client_secret": "<client_secret>",
+            "redirect_uri": "https://your-website/v1/instagram/oauth/"
+        },
+        "App1": {
+            "client_id": "<clientid>",
+            "client_secret": "<client_secret>",
+            "redirect_uri": "https://your-website/v1/instagram/oauth/"
+        }
+    },
+
+    "ErrorCode": {
+        "desc": "错误码配置",
+
+        "OK": {
+            "code": 200,
+            "http_code": 200,
+            "error_type": "",
+            "error_message": ""
+        },
+        "BAD_REQUEST": {
+            "code": 400,
+            "http_code": 400,
+            "error_type": "BadRequest",
+            "error_message": "You cannot do this."
+        },
+        "NOT_FOUND": {
+            "code": 404,
+            "http_code": 404,
+            "error_type": "NotFound",
+            "error_message": "Resource not found."
+        },
+        "INSTAGRAM_TIME_OUT": {
+            "code": 408,
+            "http_code": 408,
+            "error_type": "InstagramTimeOut",
+            "error_message": "Request timeout."
+        },
+        "INTERNAL_SERVER_ERROR": {
+            "code": 500,
+            "http_code": 500,
+            "error_type": "InternalServerError",
+            "error_message": "Internal server error."
+        },
+
+        "PARAM_INVALID_ERROR": {
+            "desc": "参数缺失",
+
+            "code": 10002,
+            "http_code": 400,
+            "error_type": "ParamInvalidException",
+            "error_message": "some parameters are invalid."
+        }
+    }
+}
