@@ -15,7 +15,7 @@
     },
 
     "ErrorCode": {
-        "desc": "错误码配置",
+        "desc": "config for error codes.",
 
         "OK": {
             "code": 200,
@@ -49,7 +49,7 @@
         },
 
         "PARAM_INVALID_ERROR": {
-            "desc": "参数缺失",
+            "desc": "may be parameters missing.",
 
             "code": 10002,
             "http_code": 400,
