@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var debug = require('debug')('PadgramOAuth');
+var debug = require('debug')('Instagram-Signed-Call');
 var app = require('../app');
 
 process.on('uncaughtException', function (err) {

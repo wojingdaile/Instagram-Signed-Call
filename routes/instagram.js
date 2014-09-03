@@ -1,5 +1,5 @@
 /*
- * handle all padgram oauth&post requests.
+ * handle all oauth&post requests.
  * - oauth
  * - like (post)
  * - unlike (del)
